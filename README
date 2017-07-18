@@ -1,0 +1,27 @@
+Readme for Assignment4
+Submission = Shafi Haque, mdshaque@ucsc.edu, 1564169
+Partner = Arthurlot Li, ali64@ucsc.edu, 1548665
+
+The program compresses files. It encodes and decodes the files.
+My role was the encode and the priority queue. I did buildCode, dumpTree as well as appendCode with lots of help from the TA.
+We each wrote 50 percent of the code.
+
+Citations:
+	stack.h			Initial interface code provided by Prof. Darrell Long
+	queue.h			Initial interface code provided by Prof. Darrell Long
+	huffman.h		Initial interface code provided by Prof. Darrell Long
+	code.h			Code provided by Prof. Darrell Long
+	printTree in huffman.c	Code provided by Prof. Darrell Long
+	bv.h			Code provided by Prof. Darrell Long
+
+How to Compile:
+make encode
+	Use the command make or make all
+	or
+make decode
+make encode
+
+How to Run:
+	run ./encode and ./decode; both accept -i inputFile and -o outputFile and -v to turn on verbose
+	-p prints out the tree.
+	The program works perfectly.
