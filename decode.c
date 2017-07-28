@@ -257,7 +257,7 @@ int main(int argc, char **argv)
 	// If verbose, print out the stuff needed
 	if(verbose)
 	{
-		printf("Original %lu bits: tree (%u)\n",(outputSize*8),treeSize);
+		printf("Original %llu bits: tree (%u)\n",(outputSize*8),treeSize);
 	}
 
 	// Close both files and anything used. Have a nice night.

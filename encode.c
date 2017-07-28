@@ -131,7 +131,7 @@ int main(int argc, char **argv )
 
 	if(verbose) // This prints out if the verbose is on.
 	{
-		printf("Original %lu bits: ",fdSize*8); // Prints out the original bit count
+		printf("Original %llu bits: ",fdSize*8); // Prints out the original bit count
 		printf("leaves %i (%i bytes)", leafs, treeSize );
         printf(" encoding %i bits (%f%%).\n", mergeCode->l, ((float)mergeCode->l/(fdSize*8))*100); // Prints the encoded count.
 	}

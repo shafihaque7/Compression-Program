@@ -193,16 +193,16 @@ void printTree(treeNode *t, int depth)
         {
             if (isprint(t->symbol))
             {
-                spaces(4 * depth); printf("'%c' (%lu)\n", t->symbol, t->count);
+                spaces(4 * depth); printf("'%c' (%llu)\n", t->symbol, t->count);
             }
             else
             {
-                spaces(4 * depth); printf("0x%X (%lu)\n", t->symbol, t->count);
+                spaces(4 * depth); printf("0x%X (%llu)\n", t->symbol, t->count);
             }
         }
         else
         {
-            spaces(4 * depth); printf("$ (%lu)\n", t->count);
+            spaces(4 * depth); printf("$ (%llu)\n", t->count);
         }
 
         printTree(t->right, depth + 1);
