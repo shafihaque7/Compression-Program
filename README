@@ -25,3 +25,5 @@ How to Run:
 	run ./encode and ./decode; both accept -i inputFile and -o outputFile and -v to turn on verbose
 	-p prints out the tree.
 	The program works perfectly.
+
+How to run the program video: https://youtu.be/FcNpFWDIoP4
